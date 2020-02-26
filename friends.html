@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Friends | Kakao Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <div class="status-bar__clock">13:54</div>
+      </div>
+      <div class="status-bar__column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-mute"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Friends</h1>
+      </div>
+      <div class="header__header-colmn">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
+        </span>
+      </div>
+    </header>
+    <main class="friends">
+      <header class="friends__header">
+        <div class="friends__friend friend friend--lg">
+          <div class="friend__column">
+            <img src="img/Harry.jpg" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Harry Porter</span>
+              <span class="friend__status">Harry, you are a wizard</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                Harry's Wondrous World (John Williams)
+              </span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="friends__plus">
+        <h5 class="friends__title">Plus friend</h5>
+        <div class="friends__list">
+          <div class="friends__friend friend">
+            <div class="friend__column">
+              <img
+                src="img/weasleys_wizard_wheeze.jpg"
+                class="g-avatar friend__avatar"
+              />
+              <div class="friend__content">
+                <span class="friend__name">Weasleys Wizard Wheeze</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <ul class="friends__list">
+        <h5 class="friends__title">Friends 3</h5>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img
+              src="img/Hermione.jpg"
+              alt=""
+              class="g-avatar friend__avatar"
+            />
+            <div class="friend__content">
+              <span class="friend__name">Hermione</span>
+              <span class="friend__status"></span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening">
+              <span>
+                Only you can (Jeremy Camp)
+              </span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="img/luna.jpg" alt="" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Luna Lovegood</span>
+              <span class="friend__status">You're just as sane as I am.</span>
+            </div>
+          </div>
+        </li>
+        <li class="friends__friend friend">
+          <div class="friend__column">
+            <img src="img/ron.jpg" alt="" class="g-avatar friend__avatar" />
+            <div class="friend__content">
+              <span class="friend__name">Ron Weasleys</span>
+              <span class="friend__status">Bloody hell!</span>
+            </div>
+          </div>
+          <div class="friend__column">
+            <div class="friend__now-listening short">
+              <span>OK (Josh Wilson)</span>
+              <i class="fas fa-play"></i>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="fas fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">1</div>
+            <i class="far fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small! 😥</span>
+    </div>
+  </body>
+</html>
